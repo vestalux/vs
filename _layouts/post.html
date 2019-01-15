@@ -1,0 +1,28 @@
+---
+layout: default
+---
+ <section class="bg-primary post" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">{{ page.title }}</h2>
+<hr class="light">
+                <p class="text-faded">{{ page.description }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <div class="row">
+ <div class="content">
+      <div class="container col-lg-8 col-lg-offset-2 text-center">
+<br/>
+{% if page.image %}
+				<img src="{{ site.url }}{{ page.image }}" width="100%" >
+				{% endif %}
+<br/>
+<br/>
+   {{ content }}
+      </div>
+  </div><!-- end .content -->
+   </div>

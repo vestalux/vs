@@ -1,0 +1,18 @@
+# Site settings
+title: Öko-Hungary
+email: hi@oko-hungary.eu
+phone: +36-30-821-4589
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://oko-hungary.eu/" # the base hostname & protocol for your site
+
+facebook_username: okohungary
+github_username:
+
+# Build settings
+markdown: kramdown
+
+collections:
+  portfolio:
+    output: true
+    permalink: portfolio/:title/
