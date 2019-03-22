@@ -8,7 +8,7 @@ date: '2018-11-22T00:00:00+01:00'
 <form action="https://formspree.io/leki69@gmail.com" method="POST">
 
 
-  <label for="name">Name</label>
+  <label for="name">Name</label><br>
   <input type="text" id="name" name="name" placeholder="Your name..">
   <label for="name">Email</label>
   <input type="text" id="email" name="email" placeholder="Your Email..">
