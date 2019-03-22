@@ -1,0 +1,36 @@
+---
+layout: default
+---
+ <section class="bg-primary post" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">{{ page.title }}</h2>
+<hr class="light">
+                <p class="text-faded">{{ page.description }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <div class="row">
+ <div class="content">
+      <div class="container col-lg-8 col-lg-offset-2 text-center">
+<br/>
+{% if page.image %}
+				<img src="{{ site.url }}{{ page.image }}" width="100%" >
+				{% endif %}
+<br/>
+<br/>
+<script src="https://www.commencepayments.com/v2/commence.js"
+ data-amount="10000"
+ data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+ data-currency="USD"
+ data-description="2 Widgets ($100)"
+ data-name="Commence"
+ data-zip-code="true"
+ data-key="pk_test_OZwJfcF4YXzwNdYj8isCwTmx"
+></script>
+      </div>
+  </div><!-- end .content -->
+   </div>
