@@ -12,7 +12,6 @@ date: '2018-11-22T00:00:00+01:00'
   <input type="text" id="name" name="name" placeholder="Your name..">
   <label for="name">Email</label>
   <input type="text" id="email" name="email" placeholder="Your Email..">
-Future champion scholarship
 
   <label for="program">Choose a program</label>
   <select id="country" name="country">
