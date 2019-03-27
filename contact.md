@@ -9,31 +9,31 @@ date: '2018-11-22T00:00:00+01:00'
 
 
 
-  <label for="">Guardian's Name</label>
+  <label for="guardian">Guardian's Name</label>
   <input type="text" id="guardian" name="guardian" placeholder="Guardian's Name...">
 
-  <label for="Athlete's Name"></label>
+  <label for="athlete">Athlete's Name</label>
   <input type="text" id="athlete" name="athlete" placeholder="Athlete's Name...">
 
-  <label for="program">Athlete's Gender</label>
+  <label for="gender">Athlete's Gender</label>
   <select id="gender" name="gender">
     <option value="female">Female</option>
     <option value="male">Male</option>
   </select>
 
-  <label for="Athlete's Date of birth"></label>
+  <label for="birthdate">Athlete's Date of birth</label>
   <input type="date" id="birthdate" name="birthdate" placeholder="Athlete's Name...">
 
-  <label for="Athlete's Soccer experience and level of play (if applicable):"></label>
+  <label for="experience">Athlete's Soccer experience and level of play (if applicable)</label>
   <input type="text" id="experience" name="experience" placeholder="Experience...">
 
-  <label for="name">Contact Email Address</label>
+  <label for="email">Contact Email Address</label>
   <input type="text" id="email" name="email" placeholder="Contact Email Address..">
 
-  <label for="">Contact Phone Number</label>
+  <label for="phone">Contact Phone Number</label>
   <input type="text" id="phone" name="phone" placeholder="Contact Phone Number">
 
-  <label for="program">Interested in:</label>
+  <label for="interested">Interested in:</label>
   <select id="interested" name="interested">
     <option value="small group training">Small Group Training</option>
     <option value="private training">Private Training</option>
