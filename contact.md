@@ -5,7 +5,7 @@ category: lézervágás
 layout: post
 date: '2018-11-22T00:00:00+01:00'
 ---
-<form action="https://formspree.io/leki69@gmail.com" method="POST">
+<form action="https://formspree.io/vegas.socceracademy@gmail.com" method="POST">
 
 
   <label for="name">Name</label><br>
