@@ -36,6 +36,14 @@ h6 {
     @include sans-serif-font;
 }
 
+.primary{
+    color: $theme-primary
+}
+
+.dark{
+    color: $theme-dark
+}
+
 p {
     font-size: 16px;
     line-height: 1.5;
