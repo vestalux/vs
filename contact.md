@@ -35,8 +35,8 @@ date: '2018-11-22T00:00:00+01:00'
 
   <label for="interested">Interested in:</label>
   <select id="interested" name="interested">
-    <option value="small group training">Small Group Training</option>
-    <option value="private training">Private Training</option>
+    <option value="smallgrouptraining">Small Group Training</option>
+    <option value="privatetraining">Private Training</option>
     <option value="scholarship">Future champion scholarship</option>
     <option value="camp">Soccer camps</option>
   </select>
