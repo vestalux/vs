@@ -309,7 +309,7 @@ header {
 }
 
 .btn-dark {
-    @include button-variant(white, $theme-dark, $theme-dark);
+    @include button-variant($theme-primary, $theme-dark, $theme-dark);
 }
 
 .btn {
