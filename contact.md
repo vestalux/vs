@@ -9,11 +9,17 @@ date: '2018-11-22T00:00:00+01:00'
 
 
 
-  <label for="guardian">Guardian's Name</label>
-  <input type="text" id="guardian" name="guardian" placeholder="Guardian's Name...">
+<label for="guardian_fn">Guardian's First Name</label>
+<input type="text" id="guardian_fn" name="guardian_fn" placeholder="Guardian's First Name...">
 
-  <label for="athlete">Athlete's Name</label>
-  <input type="text" id="athlete" name="athlete" placeholder="Athlete's Name...">
+<label for="guardian_ln">Guardian's Last Name</label>
+<input type="text" id="guardian_ln" name="guardian_ln" placeholder="Guardian's Last Name...">
+
+  <label for="athlete_fn">Athlete's First Name</label>
+  <input type="text" id="athlete_fn" name="athlete_fn" placeholder="Athlete's First Name...">
+
+  <label for="athlete_ln">Athlete's Last Name</label>
+  <input type="text" id="athlete_ln" name="athlete_ln" placeholder="Athlete's Last Name...">
 
   <label for="gender">Athlete's Gender</label>
   <select id="gender" name="gender">
@@ -37,8 +43,8 @@ date: '2018-11-22T00:00:00+01:00'
   <select id="interested" name="interested">
     <option value="smallgrouptraining">Small Group Training</option>
     <option value="privatetraining">Private Training</option>
-    <option value="scholarship">Future champion scholarship</option>
-    <option value="camp">Soccer camps</option>
+    <option value="scholarship">Future Champion Scholarship</option>
+    <option value="camp">Soccer Camps</option>
   </select>
 
   <label for="message">Message</label>
