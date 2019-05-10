@@ -28,16 +28,16 @@ date: '2018-11-22T00:00:00+01:00'
   </select>
 
   <label for="birthdate">Athlete's Date of birth</label>
-  <input type="date" id="birthdate" name="birthdate" placeholder="Athlete's Name...">
+  <input type="date" id="birthdate" name="birthdate" placeholder="09/09/09">
 
   <label for="experience">Athlete's Soccer experience and level of play (if applicable)</label>
   <input type="text" id="experience" name="experience" placeholder="Experience...">
 
-  <label for="email">Contact Email Address</label>
-  <input type="text" id="email" name="email" placeholder="Contact Email Address..">
+  <label for="email">Contact Email Address*</label>
+  <input type="text" id="email" name="email" placeholder="Contact Email Address.." required>
 
-  <label for="phone">Contact Phone Number</label>
-  <input type="text" id="phone" name="phone" placeholder="Contact Phone Number">
+  <label for="phone">Contact Phone Number*</label>
+  <input type="text" id="phone" name="phone" placeholder="Contact Phone Number" required>
 
   <label for="interested">Interested in:</label>
   <select id="interested" name="interested">
